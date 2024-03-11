@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello world!");
         System.out.println("Задача 1");
         int age = 17;
         if (age >= 18) {
@@ -68,11 +69,11 @@ public class Main {
 
         System.out.println("\nЗадача 7");
 
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        if (three > two || three > one) {
-            System.out.println("Число three, больше чем число one и two");
+        int one = 178787;
+        int two = 278787;
+        int three = 3787878;
+        if (three > two && three > one) {
+            System.out.println("Число " + three + ", больше чем число " + two + " и " + one);
         }
         // Задание показалось слишком легким. возможно надо было сделать как то иначе, но IDEA
         // требует инициализровать переменные, пришлось подписать цифры.
